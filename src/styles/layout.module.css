@@ -1,0 +1,17 @@
+.navbar {
+  background: #0a111f;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar a {
+  color: #e5e5e5;
+  display: inline-block;
+  padding: 0.5rem;
+  text-decoration: none;
+}
+
+.navbar a:focus,
+.navbar a:hover {
+  color: #fca311;
+}

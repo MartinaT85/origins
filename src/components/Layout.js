@@ -1,6 +1,8 @@
 import * as React from "react";
 import { Link, useStaticQuery, graphql } from "gatsby";
 import Seo from "../components/Seo";
+import { navbar } from "../styles/layout.module.css";
+import "../styles/global.css";
 
 const Layout = ({
   children,
@@ -23,12 +25,12 @@ const Layout = ({
   return (
     <>
       <Seo title={title} description={description} path={path} />
-      <nav>
+      <nav className={navbar}>
         <Link to="/">Home</Link>
         <Link to="/projects">Projekty</Link>
         <Link to="/contact">Kontakt</Link>
-        <main>{children}</main>
       </nav>
+      <main>{children}</main>
     </>
   );
 };
