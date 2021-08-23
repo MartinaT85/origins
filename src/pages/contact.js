@@ -1,12 +1,11 @@
 import * as React from "react";
-import Seo from "../components/Seo";
+import Layout from "../components/Layout";
 
 const Contact = () => {
   return (
-    <>
-      <Seo title="Contact" description="Kontaktujte nas" />
+    <Layout title="Kontakujte nas">
       <h1>Hello from Contacts</h1>
-    </>
+    </Layout>
   );
 };
 
