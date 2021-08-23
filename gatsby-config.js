@@ -1,7 +1,8 @@
 module.exports = {
   siteMetadata: {
     siteUrl: "https://www.yourdomain.tld",
-    title: "Origins-v2",
+    title: "Origins",
+    description: "Sadrokarton a obklady v Ziline a okoli",
   },
-  plugins: ["gatsby-plugin-styled-components"],
+  plugins: ["gatsby-plugin-styled-components", "gatsby-plugin-react-helmet"],
 };
