@@ -203,6 +203,7 @@ Sidebar Animation
 
 .hero-img {
   height: 100%;
+  width: 100%;
 }
 
 .hero {
@@ -227,6 +228,7 @@ Sidebar Animation
 .hero-text {
   color: #e5e5e5;
   text-align: center;
+  margin: 0 1rem;
 }
 
 .hero-text h1 {
@@ -235,4 +237,31 @@ Sidebar Animation
 
 .hero-text h1 span {
   color: #fca311;
+}
+
+@media screen and (min-width: 1025px) {
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+  }
+  .hero-container {
+    position: relative;
+    padding-right: 4rem;
+  }
+
+  .hero-text {
+    text-align: start;
+    margin: 0;
+  }
+
+  .hero-text h1 {
+    font-size: 3.75rem;
+    padding-bottom: 2rem;
+  }
+}
+
+.hero-text p {
+  padding-top: 2rem;
 }
