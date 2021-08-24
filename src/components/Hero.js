@@ -16,7 +16,7 @@ const Hero = () => {
         <div className="hero-container">
           <div className="hero-text">
             <h1>
-              Coloring book hot chicken <span>paleo</span> cloud
+              Sadrokartón a sádrové omietky v <span>Žiline</span> a okolí
             </h1>
             <p>
               Succulents locavore af paleo umami whatever authentic activated
