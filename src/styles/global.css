@@ -25,6 +25,11 @@ a {
   color: #e5e5e5;
 }
 
+a:hover,
+a:focus {
+  color: #fca311;
+}
+
 ul {
   list-style: none;
 }
@@ -95,7 +100,8 @@ img {
     font-weight: 200;
   }
 
-  .nav-links a:hover {
+  .nav-links a:hover,
+  .nav-links a:focus {
     color: #fca311;
   }
 
