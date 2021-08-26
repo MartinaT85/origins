@@ -10,5 +10,14 @@ module.exports = {
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
+    {
+      resolve: "gatsby-plugin-web-font-loader",
+      options: {
+        google: {
+          families: ["Poppins"],
+          variants: ["100", "200", "400"],
+        },
+      },
+    },
   ],
 };
