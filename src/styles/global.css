@@ -254,7 +254,21 @@ Sidebar Animation
   }
   .hero-container {
     position: relative;
+    display: flex;
     padding-right: 4rem;
+  }
+
+  button {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    margin-top: 3rem;
+    background: #fca311;
+    color: #e5e5e5;
+    border: none;
+    font-weight: 600;
+    font-size: 1rem;
+    align-self: flex-end;
   }
 
   .hero-text {

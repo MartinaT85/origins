@@ -23,6 +23,7 @@ const Hero = () => {
               charcoal organic.
             </p>
           </div>
+          <button type="button">Kontaktujte nas</button>
         </div>
       </header>
     </>
