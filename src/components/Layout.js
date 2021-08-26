@@ -5,6 +5,7 @@ import Seo from "../components/Seo";
 import Navbar from "../components/Navbar";
 import "../styles/global.css";
 import SideBar from "./Sidebar";
+import Footer from "./Footer";
 
 const Layout = ({
   children,
@@ -35,6 +36,7 @@ const Layout = ({
       <Navbar toggleSidebar={toggleSidebar} />
       <SideBar isOpen={isOpen} toggleSidebar={toggleSidebar} />
       <main>{children}</main>
+      <Footer />
     </>
   );
 };

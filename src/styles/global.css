@@ -245,6 +245,18 @@ Sidebar Animation
   color: #fca311;
 }
 
+.hero-container button {
+  display: block;
+  /* width: 100%; */
+  padding: 0.75rem 2.5rem;
+  margin-top: 3rem;
+  background: #fca311;
+  color: #e5e5e5;
+  border: none;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
 @media screen and (min-width: 1025px) {
   .hero {
     display: flex;
@@ -258,17 +270,8 @@ Sidebar Animation
     padding-right: 4rem;
   }
 
-  button {
-    display: block;
-    width: 100%;
-    padding: 0.75rem;
-    margin-top: 3rem;
-    background: #fca311;
-    color: #e5e5e5;
-    border: none;
-    font-weight: 600;
-    font-size: 1rem;
-    align-self: flex-end;
+  .hero-container button {
+    align-self: start;
   }
 
   .hero-text {
@@ -284,4 +287,24 @@ Sidebar Animation
 
 .hero-text p {
   padding-top: 2rem;
+}
+
+/* FOOTER */
+
+.footer {
+  height: 9rem;
+  background: #0a111f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer h4 {
+  margin-top: 0.5rem;
+  font-weight: 200;
+}
+
+.footer h4 span {
+  color: #fca311;
 }
