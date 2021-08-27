@@ -16,12 +16,9 @@ const Hero = () => {
         <div className="hero-container">
           <div className="hero-text">
             <h1>
-              Sadrokartón a sádrové omietky v <span>Žiline</span> a okolí
+              Montáž sadrokártónu a sádrové omietky v <span>Žiline</span> a
+              okolí
             </h1>
-            <p>
-              Succulents locavore af paleo umami whatever authentic activated
-              charcoal organic.
-            </p>
           </div>
           <button type="button">Kontaktujte nas</button>
         </div>

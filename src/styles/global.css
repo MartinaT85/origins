@@ -358,9 +358,9 @@ Sidebar Animation
   }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1025px) {
   .services-center {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 
   .service {
@@ -397,7 +397,7 @@ Sidebar Animation
 .project-info {
   background: #e5e5e5;
   padding: 1rem 2rem;
-  text-align: start;
+  text-align: center;
 }
 
 .project-info p,
@@ -410,6 +410,18 @@ Sidebar Animation
   font-size: 1.25rem;
   margin-bottom: 1.5rem;
   text-transform: uppercase;
+}
+
+@media screen and (min-width: 576px) {
+  .project-img {
+    height: 19rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .project-img {
+    height: 22rem;
+  }
 }
 
 /* FOOTER */

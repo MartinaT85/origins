@@ -8,7 +8,7 @@ const Projects = () => {
         <h2>Projekty</h2>
         <div className="underline"></div>
       </div>
-      <div className="section-center projects-center">
+      <div className="projects-center">
         <Project />
         <Project />
         <Project />

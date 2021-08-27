@@ -18,12 +18,21 @@ const Services = () => {
           </p>
         </article>
         <article className="service glass">
-          <h4>Obklady</h4>
+          <h4>Montáž sadrokartónu</h4>
           <div className="underline"></div>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
             illum natus culpa similique architecto ut pariatur cum explicabo
             quaerat delectus?
+          </p>
+        </article>
+        <article className="service glass">
+          <h4>Dlažby a obklady</h4>
+          <div className="underline"></div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quasi
+            tempora soluta qui quisquam? Culpa similique neque veritatis veniam
+            saepe!
           </p>
         </article>
         <article className="service glass">
