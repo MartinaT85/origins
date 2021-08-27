@@ -33,10 +33,12 @@ const Layout = ({
   return (
     <>
       <Seo title={title} description={description} path={path} />
-      <Navbar toggleSidebar={toggleSidebar} />
-      <SideBar isOpen={isOpen} toggleSidebar={toggleSidebar} />
-      <main>{children}</main>
-      <Footer />
+      <div className="sticky-footer">
+        <Navbar toggleSidebar={toggleSidebar} />
+        <SideBar isOpen={isOpen} toggleSidebar={toggleSidebar} />
+        <main>{children}</main>
+        <Footer />
+      </div>
     </>
   );
 };
