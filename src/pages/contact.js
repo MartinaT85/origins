@@ -4,7 +4,36 @@ import Layout from "../components/Layout";
 const Contact = () => {
   return (
     <Layout title="Kontakujte nas">
-      <h1>Hello from Contacts</h1>
+      <section className="contact-page">
+        <article className="contact-form">
+          <h3>Get in touch</h3>
+          <form action="">
+            <div className="form-group">
+              <input
+                type="text"
+                name="name"
+                placeholder="name"
+                className="form-control"
+              />
+              <input
+                type="email"
+                name="email"
+                placeholder="email"
+                className="form-control"
+              />
+              <textarea
+                name="message"
+                placeholder="Sprava"
+                className="form-control"
+                rows="5"
+              ></textarea>
+            </div>
+            <button type="submit" className="submit-btn btn">
+              Odoslat
+            </button>
+          </form>
+        </article>
+      </section>
     </Layout>
   );
 };

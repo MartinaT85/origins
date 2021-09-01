@@ -1,7 +1,7 @@
 import * as React from "react";
 import { StaticImage } from "gatsby-plugin-image";
 
-const Project = () => {
+const Project = ({ src }) => {
   return (
     <article className="project">
       <StaticImage

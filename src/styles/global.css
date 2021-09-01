@@ -487,3 +487,18 @@ Sidebar Animation
 .footer h4 span {
   color: #fca311;
 }
+
+/* PAGES GENERALS */
+
+.contact-page {
+  min-height: calc(100vh - 5rem - 6rem);
+}
+
+/* CONTACT PAGE */
+
+.contact-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem 0;
+}
