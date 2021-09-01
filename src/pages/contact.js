@@ -12,23 +12,25 @@ const Contact = () => {
               <input
                 type="text"
                 name="name"
-                placeholder="name"
+                placeholder="meno"
                 className="form-control"
+                required
               />
               <input
                 type="email"
                 name="email"
                 placeholder="email"
                 className="form-control"
+                required
               />
               <textarea
                 name="message"
-                placeholder="Sprava"
+                placeholder="Ako Vám môžeme pomôcť?"
                 className="form-control"
                 rows="5"
               ></textarea>
               <button type="submit" className="submit-btn btn">
-                Odoslat
+                Odoslať
               </button>
             </div>
           </form>

@@ -4,7 +4,9 @@ import Layout from "../components/Layout";
 const Projects = () => {
   return (
     <Layout>
-      <h1>Hello from projects</h1>
+      <div className="project-page">
+        <h1>Hello from projects</h1>
+      </div>
     </Layout>
   );
 };

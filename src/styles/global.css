@@ -497,7 +497,8 @@ Sidebar Animation
 
 /* PAGES GENERALS */
 
-.contact-page {
+.contact-page,
+.project-page {
   min-height: calc(100vh - 5rem - 6rem);
 }
 
@@ -538,7 +539,6 @@ Sidebar Animation
 .form-control::placeholder {
   font-family: "Poppins";
   color: #0a111f;
-  text-transform: uppercase;
 }
 
 .submit-btn {
