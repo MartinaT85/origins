@@ -20,7 +20,9 @@ const Hero = () => {
               okolí
             </h1>
           </div>
-          <button type="button">Kontaktujte nas</button>
+          <button type="button" className="btn">
+            Kontaktujte nas
+          </button>
         </div>
       </header>
     </>

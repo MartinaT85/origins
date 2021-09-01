@@ -27,10 +27,10 @@ const Contact = () => {
                 className="form-control"
                 rows="5"
               ></textarea>
+              <button type="submit" className="submit-btn btn">
+                Odoslat
+              </button>
             </div>
-            <button type="submit" className="submit-btn btn">
-              Odoslat
-            </button>
           </form>
         </article>
       </section>
