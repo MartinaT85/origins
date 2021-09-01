@@ -5,7 +5,7 @@ const Projects = () => {
   return (
     <section className="section projects">
       <div className="section-title">
-        <h2>Projekty</h2>
+        <h2>Čo Vám ponúkame</h2>
         <div className="underline"></div>
       </div>
       <div className="projects-center">

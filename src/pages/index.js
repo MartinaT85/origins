@@ -8,7 +8,7 @@ const IndexPage = () => {
   return (
     <Layout>
       <Hero />
-      <Services />
+      {/* <Services /> */}
       <Projects />
     </Layout>
   );
