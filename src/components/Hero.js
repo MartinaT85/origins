@@ -1,5 +1,6 @@
 import * as React from "react";
 import { StaticImage } from "gatsby-plugin-image";
+import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
@@ -14,12 +15,19 @@ const Hero = () => {
           layout="fullWidth"
         />
         <div className="hero-container">
-          <div className="hero-text">
-            <h1>
-              Montáž sadrokártónu a sádrové omietky v <span>Žiline</span> a
-              okolí
-            </h1>
-          </div>
+          <motion.div className="hero-text">
+            <div className="hide">
+              <motion.h1>Montáž sadrokártónu</motion.h1>
+            </div>
+            <div className="hide">
+              <motion.h1>a sádrové omietky v </motion.h1>
+            </div>
+            <div className="hide">
+              <motion.h1>
+                <span>Žiline</span> a okolí
+              </motion.h1>
+            </div>
+          </motion.div>
           <button type="button" className="btn">
             Kontaktujte nas
           </button>
