@@ -23,13 +23,11 @@ const Hero = () => {
               </motion.h1>
             </div>
             <div className="hide">
-              <motion.h1 variants={titleAnimation}>
-                a sádrové omietky v
-              </motion.h1>
+              <motion.h1 variants={titleAnimation}>a sádrové omietky</motion.h1>
             </div>
             <div className="hide">
               <motion.h1 variants={titleAnimation}>
-                <span>Žiline</span> a okolí
+                v <span> Žiline</span> a okolí
               </motion.h1>
             </div>
           </motion.div>

@@ -18,14 +18,8 @@ body {
   color: #e5e5e5;
   line-height: 1.5;
   font-size: 1rem;
-  /* overflow: hidden; */
+  overflow-x: hidden;
 }
-
-/* .sticky-footer {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-} */
 
 button {
   cursor: pointer;
@@ -269,6 +263,7 @@ Sidebar Animation
   align-items: center;
   justify-content: center;
   background: rgba(15, 25, 46, 0.5);
+  overflow: hidden;
 }
 
 .hero-text {
@@ -322,6 +317,7 @@ Sidebar Animation
     position: relative;
     display: flex;
     padding-right: 4rem;
+    background: none;
   }
 
   .hero-container button {
@@ -527,7 +523,6 @@ Sidebar Animation
   align-items: center;
   justify-content: center;
   padding: 5rem 0;
-  overflow-x: hidden;
 }
 
 .contact-form {
@@ -535,6 +530,7 @@ Sidebar Animation
   text-align: center;
   width: 90vw;
   max-width: 35rem;
+  overflow: hidden;
 }
 
 .contact-form h3 {
