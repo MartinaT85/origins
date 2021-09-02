@@ -6,11 +6,11 @@ import Services from "../components/Services";
 
 const IndexPage = () => {
   return (
-    <Layout>
+    <>
       <Hero />
       {/* <Services /> */}
       <Projects />
-    </Layout>
+    </>
   );
 };
 
