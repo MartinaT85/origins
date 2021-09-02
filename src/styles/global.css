@@ -184,9 +184,21 @@ img {
   color: #fca311;
 }
 
+.svg-line {
+  display: none;
+}
+
 @media screen and (min-width: 1025px) {
   .sidebar {
     transform: translateX(-100%);
+  }
+
+  .svg-line {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 200px;
+    z-index: -1;
   }
 }
 

@@ -1,6 +1,7 @@
 import * as React from "react";
 import { StaticImage } from "gatsby-plugin-image";
 import { motion } from "framer-motion";
+import { titleAnimation, fade } from "../components/PageAnimation.js";
 
 const Hero = () => {
   return (
@@ -17,20 +18,24 @@ const Hero = () => {
         <div className="hero-container">
           <motion.div className="hero-text">
             <div className="hide">
-              <motion.h1>Montáž sadrokártónu</motion.h1>
+              <motion.h1 variants={titleAnimation}>
+                Montáž sadrokártónu
+              </motion.h1>
             </div>
             <div className="hide">
-              <motion.h1>a sádrové omietky v </motion.h1>
+              <motion.h1 variants={titleAnimation}>
+                a sádrové omietky v
+              </motion.h1>
             </div>
             <div className="hide">
-              <motion.h1>
+              <motion.h1 variants={titleAnimation}>
                 <span>Žiline</span> a okolí
               </motion.h1>
             </div>
           </motion.div>
-          <button type="button" className="btn">
+          <motion.button variants={fade} type="button" className="btn">
             Kontaktujte nas
-          </button>
+          </motion.button>
         </div>
       </header>
     </>

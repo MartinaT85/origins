@@ -6,6 +6,7 @@ import Navbar from "../components/Navbar";
 import "../styles/global.css";
 import SideBar from "./Sidebar";
 import Footer from "./Footer";
+import Wave from "./Wave";
 
 const Layout = ({
   children,
@@ -33,12 +34,11 @@ const Layout = ({
   return (
     <>
       <Seo title={title} description={description} path={path} />
-      <div className="sticky-footer">
-        <Navbar toggleSidebar={toggleSidebar} />
-        <SideBar isOpen={isOpen} toggleSidebar={toggleSidebar} />
-        <main>{children}</main>
-        <Footer />
-      </div>
+      <Navbar toggleSidebar={toggleSidebar} />
+      <SideBar isOpen={isOpen} toggleSidebar={toggleSidebar} />
+      <Wave />
+      <main>{children}</main>
+      <Footer />
     </>
   );
 };
