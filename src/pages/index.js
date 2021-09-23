@@ -6,7 +6,8 @@ import Services from "../components/Services";
 import { motion } from "framer-motion";
 import { pageAnimation } from "../components/PageAnimation.js";
 
-const IndexPage = () => {
+const IndexPage = ({ data }) => {
+  console.log(data);
   return (
     <motion.div
       variants={pageAnimation}

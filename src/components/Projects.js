@@ -9,6 +9,11 @@ const Projects = () => {
         <div className="underline"></div>
       </div>
       <div className="projects-center">
+        <Project
+          title="Montaz sadrokartonov"
+          description="lorem30"
+          img='"../images/drywall_mini.jpg"'
+        />
         <Project />
         <Project />
         <Project />

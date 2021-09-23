@@ -1,18 +1,18 @@
 import * as React from "react";
 import { StaticImage } from "gatsby-plugin-image";
 
-const Project = ({ src }) => {
+const Project = ({ title, img }) => {
   return (
     <article className="project">
       <StaticImage
-        src="../images/kitchen.jpg"
+        src="../images/drywall_mini.jpg"
         alt="kitchen"
         className="project-img"
         placeholder="tracedSVG"
         layout="fullWidth"
       />
       <div className="project-info">
-        <h3>Meno Projektu</h3>
+        <h3>{title}</h3>
         <p className="project-desc">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur,
           numquam iure accusantium praesentium repellendus molestiae odio.
