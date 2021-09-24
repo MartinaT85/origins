@@ -1,11 +1,12 @@
 import * as React from "react";
-import { StaticImage } from "gatsby-plugin-image";
+import { StaticImage, GatsbyImage, getImage } from "gatsby-plugin-image";
+import { graphql } from "gatsby";
 
 const Project = ({ title, img }) => {
   return (
     <article className="project">
-      <StaticImage
-        src="../images/drywall_mini.jpg"
+      <GatsbyImage
+        image={img}
         alt="kitchen"
         className="project-img"
         placeholder="tracedSVG"

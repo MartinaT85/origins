@@ -12,7 +12,7 @@ const Projects = () => {
         <Project
           title="Montaz sadrokartonov"
           description="lorem30"
-          img='"../images/drywall_mini.jpg"'
+          img="../images/drywall_mini.jpg"
         />
         <Project />
         <Project />
