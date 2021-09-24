@@ -60,6 +60,7 @@ main {
   max-width: 1140px;
   margin: 0 auto;
   flex: 1 0 auto;
+  overflow: hidden;
 }
 
 .navbar {
@@ -530,7 +531,6 @@ Sidebar Animation
   text-align: center;
   width: 90vw;
   max-width: 35rem;
-  overflow: hidden;
 }
 
 .contact-form h3 {
