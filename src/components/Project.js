@@ -1,17 +1,20 @@
 import * as React from "react";
-import { StaticImage } from "gatsby-plugin-image";
+import { GatsbyImage, getImage } from "gatsby-plugin-image";
+import { Link } from "gatsby";
 
-const Project = () => {
+const Project = ({ title, description, slug, image: { localFile } }) => {
   return (
     <article className="project">
+      <GatsbyImage
+        image={getImage(localFile)}
+        alt={title}
+        className="project-img"
+      />
       <div className="project-info">
-        <h3>Hello</h3>
-        <p className="project-desc">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur,
-          numquam iure accusantium praesentium repellendus molestiae odio.
-          Corrupti praesentium dolorem necessitatibus quos ad incidunt
-          reiciendis sapiente quidem, molestias mollitia, possimus consequuntur.
-        </p>
+        <Link to={`/projects/${slug}`} className="project-slug">
+          <h3>{title}</h3>
+        </Link>
+        <p className="project-desc">{description}</p>
       </div>
     </article>
   );
