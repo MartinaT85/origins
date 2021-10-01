@@ -26,5 +26,16 @@ module.exports = {
         },
       },
     },
+    {
+      resolve: `gatsby-source-sanity`,
+      options: {
+        projectId: `ux9qoh2h`,
+        dataset: `prodion`,
+
+        // If the Sanity GraphQL API was deployed using `--tag <name>`,
+        // use `graphqlTag` to specify the tag name. Defaults to `default`.
+        graphqlTag: "default",
+      },
+    },
   ],
 };
