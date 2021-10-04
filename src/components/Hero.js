@@ -2,6 +2,7 @@ import * as React from "react";
 import { StaticImage } from "gatsby-plugin-image";
 import { motion } from "framer-motion";
 import { titleAnimation, fade } from "../components/PageAnimation.js";
+import { Link } from "gatsby";
 
 const Hero = () => {
   return (
@@ -30,10 +31,12 @@ const Hero = () => {
                 v <span> Žiline</span> a okolí
               </motion.h1>
             </div>
+            <Link to="/contact">
+              <motion.button variants={fade} type="button" className="btn">
+                Kontaktujte nás
+              </motion.button>
+            </Link>
           </motion.div>
-          <motion.button variants={fade} type="button" className="btn">
-            Kontaktujte nas
-          </motion.button>
         </div>
       </header>
     </>

@@ -2,7 +2,8 @@ module.exports = {
   siteMetadata: {
     siteUrl: "https://unruffled-keller-b194f5.netlify.app",
     title: "Origins",
-    description: "Sadrokarton a obklady v Ziline a okoli",
+    description:
+      "Sadrokartón, obklady, sádrové omietky a rekonštrukcie v Žiline a okolí",
   },
   plugins: [
     "gatsby-plugin-styled-components",
