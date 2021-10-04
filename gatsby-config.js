@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
+    siteUrl: "https://unruffled-keller-b194f5.netlify.app",
     title: "Origins",
     description: "Sadrokarton a obklady v Ziline a okoli",
   },
