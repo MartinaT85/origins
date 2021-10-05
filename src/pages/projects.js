@@ -1,13 +1,43 @@
 import * as React from "react";
+import { graphql } from "gatsby";
+import Projects from "../components/Projects";
 
-const Projects = () => {
+const ProjectsPage = ({
+  data: {
+    allSanityProject: { nodes: projects },
+  },
+}) => {
   return (
     <>
-      <div className="project-page">
-        <h1>Hello from projects</h1>
-      </div>
+      <section className="projects-page">
+        <Projects projects={projects} />
+      </section>
     </>
   );
 };
 
-export default Projects;
+export const query = graphql`
+  {
+    allSanityProject {
+      nodes {
+        description {
+          children {
+            text
+          }
+        }
+        image {
+          asset {
+            gatsbyImageData(layout: CONSTRAINED, placeholder: BLURRED)
+          }
+        }
+        slug {
+          current
+        }
+        title
+        id
+      }
+    }
+  }
+`;
+
+export default ProjectsPage;

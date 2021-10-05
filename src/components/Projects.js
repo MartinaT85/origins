@@ -10,7 +10,6 @@ const Projects = ({ projects, title }) => {
       </div>
       <div className="projects-center">
         {projects.map((project) => {
-          console.log(project.description[0].children[0].text);
           return <Project key={project.id} {...project} />;
         })}
       </div>
