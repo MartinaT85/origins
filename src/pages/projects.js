@@ -10,7 +10,7 @@ const ProjectsPage = ({
   return (
     <>
       <section className="projects-page">
-        <Projects projects={projects} />
+        <Projects title="Naša Ponuka" projects={projects} />
       </section>
     </>
   );
