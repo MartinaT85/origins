@@ -9,8 +9,8 @@ const ProjectsPage = ({
 }) => {
   return (
     <>
-      <section className="projects-page">
-        <Projects title="Naša Ponuka" projects={projects} />
+      <section className="project-page">
+        <Projects projects={projects} />
       </section>
     </>
   );
